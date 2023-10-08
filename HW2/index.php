@@ -3,7 +3,6 @@
 // Подключаем задания
 require_once('functions.php');
 
-// Магия которая пригодится в жизни
 ob_start();
 
 $stringsArray = ['one', 'two', 'three', 'four', 'five'];
