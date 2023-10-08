@@ -132,7 +132,11 @@ function task7($text1, $text2)
 
 function task8($path)
 {
-
+//    $handle = fopen($path, "r");
+//    $text = fread($handle, 1024);
+//
+//    fclose($handle);
+//    echo $text;
     $content = file_get_contents("test.txt");
     echo $content;
 }
